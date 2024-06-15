@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div {
+    width: fit-content;
+    font-size: 1.2 rem;
+    padding: 10px;
+    border-left: 8px solid;
+    margin-bottom: 10px;
+}
+
+.danger {
+    background-color:#ffdddd;
+    border-color: #f44336;
+}
+
+.success {
+    background-color: #ddffdd;
+    border-color: #04AA6D;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-color: #2196F3;
+}
+
+.warning {
+    background-color: #ffffcc;
+    border-color: #ffeb3b;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.warning-img {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
